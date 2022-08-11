@@ -49,12 +49,12 @@
                     label: '',
                     data: [
                     <?php 
-                    $jumlah_teknik = mysqli_query($connection,"select * from users where jenis_kelamin='Laki-laki'");
-                    echo mysqli_num_rows($jumlah_teknik);
+                    $jumlah_laki2 = mysqli_query($connection,"select * from users where jenis_kelamin='Laki-laki'");
+                    echo mysqli_num_rows($jumlah_laki2);
                     ?>, 
                     <?php 
-                    $jumlah_ekonomi = mysqli_query($connection,"select * from users where jenis_kelamin='Perempuan'");
-                    echo mysqli_num_rows($jumlah_ekonomi);
+                    $jumlah_perempuan = mysqli_query($connection,"select * from users where jenis_kelamin='Perempuan'");
+                    echo mysqli_num_rows($jumlah_perempuan);
                     ?>
                     
                     ],
