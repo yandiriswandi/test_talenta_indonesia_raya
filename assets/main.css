@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Poppins:wght@400;500;700;800;900&display=swap');
+body {
+    margin: 0;
+  
+font-family: 'Poppins', sans-serif;
+
+    background-color: rgb(148, 0, 211) !important;
+ 
+}
+.navbar{
+    background-color:rgb(148, 0, 211) !important ;
+    font-weight: 800 !important;
+}
+.nav-img{
+    height: 80px !important;
+    width: 80px;
+}
+.nav-link{
+    font-weight: 600 !important;
+}
+th {
+    text-align: center;
+}
+td {
+    text-align: center;
+}
+input{
+    border-color: rgb(148, 0, 211) !important;
+}
+select{
+    border-color: rgb(148, 0, 211) !important;
+}
+textarea{
+    border-color: rgb(148, 0, 211) !important;
+}
